@@ -76,10 +76,10 @@ RUN install-repository \
     "--url http://toolshed.g2.bx.psu.edu/ -o lionelguy --name spades --panel-section-name Assembly" \
     "--url http://toolshed.g2.bx.psu.edu/ -o peterjc --name mira4_assembler --panel-section-name Assembly"
 
-# EMBOSS
-RUN install-repository \
-    "--url http://toolshed.g2.bx.psu.edu/ -o devteam --name package_emboss_5_0_0" \
-    "--url http://toolshed.g2.bx.psu.edu/ -o devteam --name emboss_5 --panel-section-name EMBOSS"
+# EMBOSS - There is a formatting issue in the galaxy left sidebar
+# RUN install-repository \
+#    "--url http://toolshed.g2.bx.psu.edu/ -o devteam --name package_emboss_5_0_0" \
+#    "--url http://toolshed.g2.bx.psu.edu/ -o devteam --name emboss_5 --panel-section-name EMBOSS"
 
 
 #package_bx_python_0_7
