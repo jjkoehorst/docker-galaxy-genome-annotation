@@ -73,8 +73,8 @@ RUN install-repository \
 
 # Assembly tools
 RUN install-repository \
-    "--url http://toolshed.g2.bx.psu.edu/ -o lionelguy --name spades --panel-section-name Plotting" \
-    "--url http://toolshed.g2.bx.psu.edu/ -o peterjc --name mira4_assembler --panel-section-name Plotting"
+    "--url http://toolshed.g2.bx.psu.edu/ -o lionelguy --name spades --panel-section-name Assembly" \
+    "--url http://toolshed.g2.bx.psu.edu/ -o peterjc --name mira4_assembler --panel-section-name Assembly"
 
 # EMBOSS
 RUN install-repository \
