@@ -4,9 +4,10 @@
 
 FROM bgruening/galaxy-stable
 
-MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
+MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com, Jasper Koehorst, jasperkoehorst@gmail.com
 
-ENV GALAXY_CONFIG_BRAND Genome Annotation Suite
+# ENV GALAXY_CONFIG_BRAND Genome Annotation Suite
+ENV GALAXY_CONFIG_BRAND iBioSystems
 
 WORKDIR /galaxy-central
 
